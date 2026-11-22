@@ -28,10 +28,10 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["l10n_fi", "mis_template_financial_report"],
+    "depends": ["l10n_fi_oca", "mis_template_financial_report"],
     "data": [
-        "data/mis_report_kpi_bs.xml",
-        "data/mis_report_kpi_pl.xml",
+        "data/mis_report_fi_bs.xml",
+        "data/mis_report_fi_pl.xml",
         "data/mis_report_kpi_vat.xml",
     ],
     "external_dependencies": {"python": [], "bin": []},
